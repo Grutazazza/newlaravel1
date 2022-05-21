@@ -25,7 +25,7 @@ return new class extends Migration
             $table->smallInteger('length');
             $table->decimal('replacement_cost');
             $table->enum('rating', ['1', '2','3', '4','5']);
-            $table->set('special_features', ['special_feature', 'special_feature']);
+            $table->set('special_features', ['special_feature1', 'special_feature2']);
             $table->timestamp('last_update');
         });
     }
